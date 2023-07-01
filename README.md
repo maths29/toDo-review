@@ -32,7 +32,7 @@
 
 # 📖 [Todo List- HTML, CSS, JS] <a name="about-project"></a>
 
-This is the first project of Module 2
+This is a ToDo list project
 
 ## 🛠 Built With <a name="built-with"></a>
 
