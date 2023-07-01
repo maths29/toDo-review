@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: poppins, Arial, Helvetica, sans-serif;
+  background: -webkit-linear-gradient(90deg, #e4b32bce 10%, #ece5c6 90%); /* chrome 10+, Saf5.. */
+  background: -o-linear-gradient(90deg, #e4ce2bbd 10%, #eaecc6 90%); /* Opera 11.10+ */
+  background: linear-gradient(90deg, #e49a2b 10%, #eaecc6 90%);  /* W3c */
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.top-block {
+  padding: 0;
+  margin: 0 38% 0 38%;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: #d1e4ec;
+  border-radius: 2%;
+}
+
+.top-block h2 {
+  padding-left: 2%;
+  margin-bottom: 0.3rem;
+}
+
+.top-block h2::after {
+  content: '';
+  display: block;
+  position: relative;
+  border-bottom: 2px solid rgba(252, 252, 252, 0.6);
+  margin-top: 0.5rem;
+}
+
+.add-input {
+  border: none;
+  margin: 0;
+  height: 2rem;
+  padding: 2%;
+  background-color: rgba(252, 252, 252, 0.6);
+  width: 287px;
+}
+
+.fa-plus {
+  color: gray;
+  position: absolute;
+  margin-top: 97.5px;
+  right: 32%;
+  cursor: pointer;
+}
+
+.fa-plus:hover {
+  color: #7bc24c;
+}
+
+ul {
+  padding: 0;
+  margin: 0 0 0 2%;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgba(252, 252, 252, 0.6);
+}
+
+.listLP {
+  display: flex;
+}
+
+.listLP input {
+  cursor: pointer;
+}
+
+.trash {
+  margin-right: 2%;
+  cursor: pointer;
+}
+
+.fa-trash-can {
+  margin-top: 1.25rem;
+  margin-left: 1rem;
+}
+
+.clearBtn {
+  height: 3.3rem;
+  font-size: 1rem;
+  color: rgb(144, 146, 148);
+  cursor: pointer;
+  border: 0.2px solid lightgray;
+}
+
+.clearBtn:hover {
+  background-color: rgb(247, 228, 152);
+  color: black;
+}
+
+.fa-trash-can:hover {
+  color: red;
+  transform: rotate(-15deg);
+}
+
+.fa-pen:hover {
+  color: rgb(17, 255, 17);
+}
+
+.editInput {
+  border: none;
+  height: 3rem;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  background: rgb(247, 251, 255);
+  border-radius: 5%;
+  margin-left: 3%;
+}
+
+.checkEdit {
+  background-color: #cedce1;
+  border: none;
+  color: black;
+}
